@@ -316,9 +316,9 @@ section {
 .work-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 30px;
+    grid-gap: 40px;
     place-items: center;
-    row-gap: 4rem;
+    row-gap: 5rem;
     margin-top: 65px;
 }
 .work-card {
@@ -478,14 +478,9 @@ form .btn2 {
     html {
       font-size: 50%;
     }
-    #service {
-      padding-bottom: 6rem;
-      grid-template-columns: repeat(3, 1fr);
-      margin: 0 4rem;
-    }
 }
  
-@media(max-width: 900px) {
+@media(max-width: 995px) {
     #menu-icon {
         display: block;
         color: var(--main-color);
